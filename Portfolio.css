@@ -1,0 +1,79 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #2c3e50;
+}
+
+/* Layout Styles */
+header {
+    background-color: #34495e;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Skills Section */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #1abc9c;
+    color: white;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* Experience Section */
+.experience-item {
+    margin-bottom: 20px;
+}
+
+.experience-item h3 {
+    margin: 5px 0;
+    color: #2980b9;
+}
+
+/* Contact Section */
+#contact p {
+    margin: 5px 0;
+}
+
+#contact a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #34495e;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
